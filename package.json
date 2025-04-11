@@ -1,0 +1,22 @@
+{
+  "name": "slackwave",
+  "version": "1.0.0",
+  "description": "Slack Slash Command for WAVE by WebAIM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/oauth": "^3.0.3",
+    "@slack/web-api": "^7.9.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

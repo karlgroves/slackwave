@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Team installations storage
+installations/
+
+# Runtime files
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Debug files
+.node_repl_history
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+.DS_Store

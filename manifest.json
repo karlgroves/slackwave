@@ -1,0 +1,41 @@
+{
+  "display_information": {
+    "name": "WAVE Accessibility",
+    "description": "Check web accessibility with WebAIM WAVE",
+    "background_color": "#4A154B"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "WAVE Bot",
+      "always_online": false
+    },
+    "slash_commands": [
+      {
+        "command": "/wave",
+        "description": "Check a URL for accessibility issues using WAVE",
+        "usage_hint": "[url] [reporttype 1-4]",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "commands",
+        "chat:write"
+      ]
+    },
+    "redirect_urls": [
+      "https://your-app-domain.com/slack/oauth_redirect"
+    ]
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": true,
+    "interactivity": {
+      "is_enabled": true,
+      "request_url": "https://your-app-domain.com/slack/events"
+    }
+  }
+}
