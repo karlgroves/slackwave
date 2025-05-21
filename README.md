@@ -76,6 +76,10 @@ npm run dev
 
 This uses nodemon to automatically restart the server when files change.
 
+## Support
+
+No support is offered for this project. 
+
 ## License
 
 MIT
